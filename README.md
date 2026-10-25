@@ -243,6 +243,8 @@ camara-lakehouse/
 
 **Volume gerenciado.** A Free Edition não permite storage próprio. Numa conta paga, a camada raw seria um bucket registrado como External Location, com o resto do código igual.
 
+**Meses recentes incompletos.** A Câmara publica as despesas conforme os comprovantes são entregues, então os meses mais recentes aparecem abaixo do real e crescem nas cargas seguintes. O pipeline reflete a API fielmente: src/validar_despesas.py compara os totais da API com o banco, e em 24/10/2026 a diferença foi de R$ 0,00 nos 522 deputados.
+
 ---
 
 ## Próximos passos
