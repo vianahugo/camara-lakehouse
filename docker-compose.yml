@@ -1,0 +1,24 @@
+name: camara-lakehouse
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: camara-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: camara
+      POSTGRES_USER: camara
+      POSTGRES_PASSWORD: camara
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U camara -d camara"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  pgdata:
