@@ -22,7 +22,7 @@ Em operação desde o fim de agosto de 2026, com execução diária automática.
 |---|---|
 | ![Proposições](docs/img/dash-proposicoes.png) | ![Saúde do pipeline](docs/img/dash-saude.png) |
 
-O relatório completo, com as páginas de detalhamento, está em [docs/camara-dashboard.pdf](docs/camara-dashboard.pdf).
+O dashboard completo, com as páginas de detalhamento, está disponível [online e interativo](https://app.powerbi.com/view?r=eyJrIjoiMDZjYmIwNjQtZWViNi00Nzg3LWJiNzYtOTkyM2FmYjMzNWY0IiwidCI6IjA4MzBiMGM2LTIzMWItNGVhZS1hZjQ4LWE4MTViZjA2NGM3MyJ9).
 
 ---
 
