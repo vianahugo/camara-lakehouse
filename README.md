@@ -245,7 +245,6 @@ camara-lakehouse/
 
 - Testes automatizados (pytest) para a chave das despesas e a deduplicação, com CI no GitHub Actions
 - Silver e gold em dbt
-- Notebooks do Databricks ligados ao repositório (Git folder)
 
 ---
 
