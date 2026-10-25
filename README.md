@@ -1,5 +1,9 @@
 # Lakehouse da Câmara dos Deputados
 
+[![Dashboard](docs/img/dash-visao-geral.png)](https://app.powerbi.com/view?r=eyJrIjoiMDZjYmIwNjQtZWViNi00Nzg3LWJiNzYtOTkyM2FmYjMzNWY0IiwidCI6IjA4MzBiMGM2LTIzMWItNGVhZS1hZjQ4LWE4MTViZjA2NGM3MyJ9)
+
+**[Abrir o dashboard interativo](https://app.powerbi.com/view?r=eyJrIjoiMDZjYmIwNjQtZWViNi00Nzg3LWJiNzYtOTkyM2FmYjMzNWY0IiwidCI6IjA4MzBiMGM2LTIzMWItNGVhZS1hZjQ4LWE4MTViZjA2NGM3MyJ9)** · [Versão em PDF](docs/camara-dashboard.pdf)
+
 Pipeline incremental que captura as mudanças (CDC) nos dados abertos da Câmara dos Deputados e monta um lakehouse em camadas (bronze, silver e gold) no Databricks, com um dashboard em Power BI no final.
 
 A API da Câmara só entrega o estado atual dos dados, sem histórico de alterações. O ponto central do projeto é descobrir **o que mudou** de um dia para o outro e aplicar só isso no lake.
